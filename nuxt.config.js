@@ -72,7 +72,7 @@ export default {
       plugins: [["@babel/plugin-transform-runtime"]],
     },
     postcss: {
-      plugins: [require("autoprefixer")],
+      plugins: ["autoprefixer"],
     },
   },
   serverMiddleware: [
